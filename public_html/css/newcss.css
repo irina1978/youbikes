@@ -1,0 +1,182 @@
+body {
+    width: 100%;
+    height: 100%;
+    background: url(../img/bikes.jpg) no-repeat fixed center;
+}
+.top-menu li {
+    float: right;
+    /*width: 150px;*/
+    list-style: none;
+}
+.top-menu > a {
+    float: right;
+}
+.top-menu a {
+    line-height: 36px;
+    padding: 0 19px;
+    font-family: Tahoma;
+    color:  white;
+    font-size: 14px;
+    font-weight: normal;
+    text-decoration: none;
+}
+.top-menu li a {
+    color: #60b5ed;
+}
+.clearfix {
+    float: none;
+    clear: both;
+}
+.top-menu {
+    background: #085596;
+}
+.top-menu li:hover {
+    background: #4eabda;
+    border-left: solid 1px #4eabda;
+    border-right: solid 1px #4eabda;
+}
+.top-menu li a:hover {
+    color: white;
+}
+.top-menu a {
+    border: 36px;
+}
+.top-menu img {
+    margin-top: 5px;
+    margin-bottom: -10px;
+    padding-right: 10px;
+}
+.form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 95%;
+    max-width: 560px;
+    /*height: 613px;*/
+    
+}
+input[type=text] {
+    padding: 12px 20px;
+    margin: 8px 10px;
+    outline: none;
+    background-color: #100f0f;
+    color: #cccccc;
+    border: black;
+    }
+.submit {
+    border: none;
+    margin: 0 auto;
+    width: 276px;
+    padding: 15px 0;
+    }
+input[type=submit] {
+    background: linear-gradient(#4faddb, #2e7ac4);
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+    height: 37px;
+    width: 149px;
+    position: relative;
+    left: 22%;
+    color: white;
+    }
+.form h3 {
+        text-align: center;
+        font-size: 24px;
+        color: white;
+        padding-top: 19px;
+        }
+    .form > a {
+        color: white;
+    }
+    .form > div {
+        background-color: rgba(0, 0, 0, 0.6);
+    }
+    .form-header {
+        margin-bottom: 2px;
+        height: 62px;
+    }
+    .form-body {
+        padding-top: 24px;
+    }
+    .form-body form {
+        width: 276px;
+        margin: 0 auto;
+    }
+    .form-body form input {
+        width: 100%;
+        margin: 8px 0 9px;
+        box-shadow: 0 1px 0 0 #4b4b4b;
+        box-sizing: border-box;
+    }
+    .form-body form input:hover {
+        background: #1b5288;
+            box-shadow: 0 0 15px 0 #2f7bc5, inset 0 0 5px 0 rgba(25, 25, 25, 0.2);
+    }
+    .facebook {
+        background: linear-gradient(#3b5699, #304272);
+        width: 100%;
+        height: 35px;
+        border-radius: 5px;
+        border-top: solid 1px #7d9fe8;
+    }
+    .button {
+        font-family: Tahoma;
+        width: 235px;
+        border-left: solid 1px #4c68a9;
+        line-height: 35px;
+        text-align: center;
+    }
+    .button .bold {
+        font-weight: bold;
+    }
+    .facebook > div {
+        /*display: inline-block;*/
+        float: left;
+        height: 35px;
+    }
+    .logo {
+        width: 37px;
+        border-right: solid 1px #213c71;
+        text-align: center;
+    }
+    .logo > img {
+            margin: 5px;
+    }
+    .button a {
+        color: white;
+        text-decoration: none;
+    }
+    .chekbox {
+        width: 276px;
+        margin: 0 auto;
+        color: white;
+        padding: 11px;
+        }
+    .text {
+        color: white;
+        font-size: 10px;
+        text-align: center;
+        margin: auto;
+        width: 276px;
+        line-height: 1.5;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    .line {
+        overflow: hidden;
+        text-align: center;
+        font-size: 14px;
+        padding: 19px 0;
+        color: #666666;
+        }
+    .line:before, .line:after {
+        content: "";
+        display: inline-block;
+        vertical-align: middle;
+        width: 46%;
+        height: 2px;
+        background: linear-gradient(#666666, #000000);
+        position: relative;
+        }
